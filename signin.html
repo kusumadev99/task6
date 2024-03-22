@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+</head>
+<body>
+    <form autocomplete="on" method="post">
+        <fieldset>
+            <legend>Signin form</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname"name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname"name="lname"><br> <br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="mail"required/><br><br>
+        <label for="phno">Contact:</label>
+        <input type="tel" id="phno"name="phnno"required><br><br>
+        <label for="pw">Password:</label>
+        <input type="password" id="pw" name="pw"/><br><br>
+        <label for="cpw">Confirm Password:</label>
+        <input type="password" id="cpw" name="cpw"/><br><br></form>
+        <form>
+        <input type="submit" formaction="./login.html"value="signin"/><br>
+        <p>already have an account?login here:</p>
+        <input type="submit" formaction="./index.html"value="login">
+
+    </form>
+</body>
+</html>
